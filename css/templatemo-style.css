@@ -73,11 +73,13 @@ p {
   /* text-decoration: none; */
   transition: all 0.3s;
   text-transform: uppercase;
+    border-radius: 25px;
 }
 
 .white-button a:hover {
   background-color: #889bae;
   color: #fff;
+    border-radius: 25px;
 }
 
 .accent-button a {
@@ -230,7 +232,7 @@ header {
   padding: 10px 0;
 }
 .sidebar-navigation li a{
-  font-family: 'Raleway', sans-serif 
+  font-family: 'Raleway', sans-serif
 }
 .sidebar-navigation span{
   display: inline-block;
@@ -362,13 +364,13 @@ header {
 .Modern-Slider .info .white-button {
   margin-top: 30px;
   text-transform: uppercase;
-  border-radius: 50%;
+  border-radius: 25px;
 }
 
 .Modern-Slider .info .white-button a:focus {
   outline: none;
   text-transform: uppercase;
-  border-radius: 50%;
+  border-radius: 25px;
 }
 
 .Modern-Slider .slick-dots {
