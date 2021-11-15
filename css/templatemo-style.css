@@ -8,6 +8,7 @@ p {
   font-size: 13px;
   color: #7a7a7a;
   line-height: 24px;
+  font-family:"Josefin Sans",sans-serif;
 }
 
 .page-content {
@@ -245,7 +246,7 @@ header {
   padding: 10px 0;
 }
 .sidebar-navigation li a{
-  font-family: 'Raleway', sans-serif
+  font-family: "Josefin Sans",sans-serif;
 }
 .sidebar-navigation span{
   display: inline-block;
@@ -644,7 +645,7 @@ header {
 #video {
   text-align: center;
   background-color: #f4f4f4;
-  padding: 100px 60px;
+  padding: 60px 60px;
 }
 
 #video .section-heading {
