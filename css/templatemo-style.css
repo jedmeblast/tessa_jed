@@ -562,7 +562,7 @@ header {
   overflow: hidden;
 }
 
-#featured .item .image .featured-button a {
+#featured .item .image .featured-button a{
   font-size: 13px;
   font-weight: 600;
   color: #fff;
@@ -585,6 +585,24 @@ header {
 #featured .item:hover .featured-button a {
   bottom: 0;
   opacity: 1;
+
+}
+#featured .item .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+         opacity: 0;
+        transition: .9s ease;
+        top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    }
+#featured .item:hover .img-top {
+display: inline-block;
+opacity: 1;
 }
 
 #featured .item .text-content {
