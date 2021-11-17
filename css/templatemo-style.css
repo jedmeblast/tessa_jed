@@ -843,6 +843,9 @@ height: auto;
   margin: 0;
   list-style: none;
 }
+#blog .tabgroup img {
+
+}
 
 #blog .tabgroup ul li {
   display: inline-block;
@@ -858,11 +861,16 @@ height: auto;
   padding-bottom: 10px;
 }
 
-#blog .tabgroup ul li img {
+#blog .tabgroup  img {
   float: left;
   margin-right: 30px;
   max-width: 100%;
   overflow: hidden;
+}
+/* JEDS MODS */
+#blog .tabgroup .jntinvi img {
+  width: 100%;
+  height: auto;
 }
 #blog .tabgroup ul li .text-content {
   display: inline;
