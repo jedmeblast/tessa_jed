@@ -1,7 +1,7 @@
 
 
 body {
-  font-family: 'Parisienne', sans-serif;
+  font-family: 'Dancing Script', cursive;;
 }
 
 p {
@@ -604,13 +604,25 @@ header {
 display: inline-block;
 opacity: 1;
 }
+/* JEDS MODS */
+/* [2] Transition property for smooth transformation of images */
 
+/* END OF JED MODS */
 #featured .item .text-content {
   padding-top: 20px;
-  background-color: #fff;
+  background-color: #f1f1f1;
   position: relative;
   z-index: 10;
+  /* JED MODS */
+  height: 164.5px; /*------------------------------ADD THIS AREA TO HIDE OVERFLOW--------------------------------*/
+  -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
 }
+#featured .item .text-content:hover {
+height: auto;
+}
+/* END OD JEDS MODS */
 
 #featured .item .text-content h4 {
   margin-top: 0px;
@@ -646,7 +658,7 @@ opacity: 1;
 }
 
 #projects .masonry .item img {
-  transition: all 1s;
+  transition: transform .5s ease;
   width: 100%;
   overflow: hidden;
   margin-bottom: 30px;
@@ -654,6 +666,7 @@ opacity: 1;
 
 #projects .masonry .item img:hover {
   opacity: 0.5;
+  transform: scale(1.1);
 }
 
 
