@@ -434,17 +434,34 @@ header {
   display: block;
 }
 
+.Modern-Slider .item-1a .image {
+  background-image: url(../img/ban1.jpg);
+}
+
+.Modern-Slider .item-2b .image {
+  background-image: url(../img/ban2.jpg);
+}
+
+.Modern-Slider .item-3c .image {
+  background-image: url(../img/ban3.jpg);
+}
+.Modern-Slider .item-4 .image {
+  background-image: url(../img/ban3b.jpg);
+}
+
+
 .Modern-Slider .item-1 .image {
-  background-image: url(../img/ALF01521.jpg);
+  background-image: url(../img/ban3c.jpg);
 }
 
 .Modern-Slider .item-2 .image {
-  background-image: url(../img/ALF01949.jpg);
+  background-image: url(../img/ban3d.jpg);
 }
 
 .Modern-Slider .item-3 .image {
-  background-image: url(../img/ALF02241.jpg);
+  background-image: url(../img/ban3e.jpg);
 }
+
 
 .Modern-Slider .PrevArrow:before{content:'\f104';}
 
