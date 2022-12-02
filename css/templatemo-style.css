@@ -723,6 +723,36 @@ height: auto;
   margin-top: 30px;
 }
 
+
+/* SAME DAY EDIT STYLE */
+/* Video Presentation Style */
+
+#video2 {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 60px 60px;
+}
+
+#video2 .section-heading {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#video2 .section-heading h1 {
+  display: block;
+  margin: 0px;
+}
+
+#video2 .section-heading p {
+  position: relative;
+  margin: 0px;
+}
+
+#video2 .accent-button {
+  margin-top: 30px;
+}
+
+
 .box-video{
   width: 100%;
   position: relative;
@@ -1229,6 +1259,10 @@ height: auto;
   }
 
   #video {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #video2 {
     padding-left: 15px;
     padding-right: 15px;
   }
